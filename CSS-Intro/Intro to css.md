@@ -137,7 +137,7 @@ h1.table {
 The universal selector (*) selects all HTML elements on the page.
 
 #### example:
-* {
+* (space) {
   text-align: center;
   color: blue;
 }
@@ -164,20 +164,21 @@ orange, red, blue
 ### Background Color
 You can set the background color for HTML elements:
 #### example:
-<h1 style=”background-color:Tomato;”>Hello!</h1>
 
-Text Color
+*<h1 s tyle=”background-color:Tomato;”>Hello!</ h 1>
+
+### Text Color
 You can set the color of text:
-example:
-<p style=”color:DodgerBlue;”>Lorem ipsum…</p>
+#### example:
+*< p style=”color:DodgerBlue;”>Lorem ipsum…</p>
 
-Border Color
+### Border Color
 You can set the color of borders:
-example:
-<h1 style=”border:2px solid DodgerBlue;”>Hello World</h1>
+#### example:
+*<h 1 style=”border:2px solid DodgerBlue;”>Hello World</h1>
 
-RGB-Color
-rgb(red, green, blue)
+### RGB-Color
+**rgb(red, green, blue)
 
 Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
 
@@ -185,113 +186,111 @@ For example, rgb(255, 0, 0) is displayed as red, because red is set to its highe
 
 To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
 
-RGBA Value
+### RGBA Value
 rgba(red, green, blue, alpha)
 
 It values are an extension of RGB color values with an alpha channel – which specifies the opacity for a color.
 
-example:
+#### example:
 rgba(255, 99, 71, 0.4)
 
-HEX-Color
+### HEX-Color
 In CSS, a color can be specified using a hexadecimal value in the form:
 
-#rrggbb
+**#rrggbb
 
 Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
 
-HSL-Color
+### HSL-Color
 In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form:
 
-hsl(hue, saturation, lightness)
+**hsl(hue, saturation, lightness)
 
 Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white.
 
-CSS-Fonts
+## CSS-Fonts
 The font CSS property is a shorthand for font-variant, font-style, font-stretch and many more . Alternatively, it sets an element’s font to a system font.
 
-CSS Font Families
+### CSS Font Families
 In CSS, there are two types of font family names:
 
-generic family – a group of font families with a similar look (like “Serif” or “Monospace”)
-font family – a specific font family (like “Times New Roman” or “Arial”)
-Generic family	Font family	Description
-Serif	Times New Roman
-Georgia	Serif fonts have small lines at the ends on some characters
-Sans-serif	Arial
-Verdana	“Sans” means without – these fonts do not have the lines at the ends of characters
-Monospace	Courier New
-Lucida Console	All monospace characters have the same width
-example:
-.sansserif {
+* generic family – a group of font families with a similar look (like “Serif” or “Monospace”)
+* font family – a specific font family (like “Times New Roman” or “Arial”)
+|Generic family	|Font family	|Description|
+|---------------|:-----------:|----------:|
+|Serif|	Times New Roman Georgia	|Serif fonts have small lines at the ends on some characters|
+|Sans-serif|	Arial Verdana|	“Sans” means without – these fonts do not have the lines at the ends of characters|
+|Monospace|	Courier New Lucida Console|	All monospace characters have the same width|
+#### example:
+*.sansserif {
   font-family: Arial, Helvetica, sans-serif;
 }
-NOTE:More than one font can be inserted/specified using commas.
+**NOTE:More than one font can be inserted/specified using commas.
 
-Font Style
+### Font Style
 This property has three vales:
 
 
  
-Normal
-Italic
-Oblique(leaning)
-example:
+* Normal
+* Italic
+* Oblique(leaning)
+#### example:
 p.italic {
   font-style: italic;
 }
 
-Font Weight
+### Font Weight
 These are of two type:
 
-Normal
-Bold
-example:
+* Normal
+* Bold
+#### example:
 h1.thick {
   font-weight: bold;
 }
 
-Font Variant
+### Font Variant
 It determines the caps of the letter. It gives normal, small-caps and big-caps value.
-example:
+#### example:
 p.small {
   font-variant: small-caps;
 }
 
-Font Size
+### Font Size
 It sets the size of the font used in the web-page.
 We should use proper HTML tags for headings ( from <h1>-<h6>) and paragraphs (<p>).
 Font – size can be absolute and relative.
 
-Absolute size:
+**Absolute size:
 Sets the text to a specified size
 Does not allow a user to change the text size in all browsers (bad for accessibility reasons)
 Absolute size is useful when the physical size of the output is known
 Relative size:
 Sets the size relative to surrounding elements
-Allows a user to change the text size in browsers
-example:
+Allows a user to change the text size in browsers**
+#### example:
 
 body {
   font-size: 100%;
 }
-here percentage is used
+*here percentage is used
 
 h1 {
   font-size: 2.5em;
 }
-here “em” is used and 1em is qual to the original size, whereas 2.5em = 2.5*original size.
+*here “em” is used and 1em is qual to the original size, whereas 2.5em = 2.5*original size.
 
 p {
   font-size: 20px;
 }
-here “px” is used which is pixels.
+*here “px” is used which is pixels.
 
-Important questions:
+*Important questions:
 What is CSS ?
 CSS stands for Cascading Style Sheets. Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
 
-Types of css files ?
+*Types of css files ?
 1] Inline css
 2] Internal css
 3] external css
