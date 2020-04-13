@@ -30,22 +30,23 @@ There are three ways
 ### External CSS
 External styles are defined within the <link> element, inside the <head> section of an HTML page:
 #### example:
- <head>
- <link rel=”stylesheet” type=”text/css” href=”style.css”>
- </head>
+ 
+ 
+ 
+ <hea d><link rel=”stylesheet ” type=”text/css” href=”style. css”></head>
 
-
+![example](https://geeksgod.com/wp-content/uploads/2020/04/image-57-600x337.png)
 
 An external style sheet can be written in any text editor, and must be saved with a .css extension.The external .css file should not contain any HTML tags.
 
 The style.css file:
-
+<br>
+![example](https://geeksgod.com/wp-content/uploads/2020/04/image-58-600x337.png)
 
 ### Internal CSS
 The internal style is defined inside the <style> element, inside the head section.
 #### example:
-<head>
-<title>Title</title>
+<hea d><title>Title</title>
 <style>    
 body {  background-color: blue;}
 h1 {  color: red;  text-align: center;}
