@@ -1,9 +1,9 @@
-What is CSS ?
+# What is CSS ?
 CSS stands for Cascading Style Sheets. Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
 
 It describes how HTML elements are to be displayed on screen, paper, or in other media. It can control the layout of multiple web pages all at once.
 
-A Simple Example
+#### A Simple Example
 body {
   background-color: blue;
 }
@@ -18,21 +18,21 @@ p {
 
 Here the back-ground of the web-page is set as blue. The heading has color red and is aligned at the center. The paragraph has font verdana with font size 50px(pixels).
 
-
+![example](https://geeksgod.com/wp-content/uploads/2020/04/image-49-1024x576.png)
 The visual representation of the given example
 
-Methods to add CSS
+## Methods to add CSS
 There are three ways
 
-External CSS
-Internal CSS
-Inline CSS
-External CSS
+- External CSS
+- Internal CSS
+- Inline CSS
+### External CSS
 External styles are defined within the <link> element, inside the <head> section of an HTML page:
-example:
-<head>
-<link rel=”stylesheet” type=”text/css” href=”style.css”>
-</head>
+#### example:
+ <head>
+ <link rel=”stylesheet” type=”text/css” href=”style.css”>
+ </head>
 
 
 
@@ -41,9 +41,9 @@ An external style sheet can be written in any text editor, and must be saved wit
 The style.css file:
 
 
-Internal CSS
+### Internal CSS
 The internal style is defined inside the <style> element, inside the head section.
-eample:
+#### example:
 <head>
 <title>Title</title>
 <style>    
@@ -54,24 +54,24 @@ p {  font-family: verdana;  font-size: 50px;}
 </head>
 
 
-Inline CSS
+### Inline CSS
 To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
-example:
-<h1 style=”color: blanchedalmond;”>I am heading</h1>
+#### example:
+<h1 style=”color: blanchedalmond;”> I am heading </h1>
 <p style=”text-align: center;”>I am paragraph</p>
 
 
 NOTE: Multiple ways of style sheet can be used in a single web-page.The execution of style shit will take place according to the highest priority.
 
-Inline style (inside an HTML element)
-External and internal style sheets (in the head section)
-Browser default
+- Inline style (inside an HTML element)
+- External and internal style sheets (in the head section)
+- Browser default
 So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
 
-Syntax of writing CSS
+## Syntax of writing CSS
 The CSS syntax consist of selector and declaration block:
 
-
+![selector and declaration](https://geeksgod.com/wp-content/uploads/2020/04/download.png)
 
 To specify where CSS rule to be applied is given by using selector. Whereas, the declarations within the block determines how the elements are formatted on a web-page.
 
