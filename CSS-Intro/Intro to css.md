@@ -31,7 +31,7 @@ External CSS
 External styles are defined within the <link> element, inside the <head> section of an HTML page:
 example:
 <head>
-<link rel=îstylesheetî type=îtext/cssî href=îstyle.cssî>
+<link rel=‚Äùstylesheet‚Äù type=‚Äùtext/css‚Äù href=‚Äùstyle.css‚Äù>
 </head>
 
 
@@ -57,8 +57,8 @@ p {  font-family: verdana;  font-size: 50px;}
 Inline CSS
 To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
 example:
-<h1 style=îcolor: blanchedalmond;î>I am heading</h1>
-<p style=îtext-align: center;î>I am paragraph</p>
+<h1 style=‚Äùcolor: blanchedalmond;‚Äù>I am heading</h1>
+<p style=‚Äùtext-align: center;‚Äù>I am paragraph</p>
 
 
 NOTE: Multiple ways of style sheet can be used in a single web-page.The execution of style shit will take place according to the highest priority.
@@ -94,7 +94,7 @@ p {
   text-align: center;
   color: red;
 }
-here ìpî is the element selector.
+here ‚Äúp‚Äù is the element selector.
 
 CSS id Selector
 Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.
@@ -106,7 +106,7 @@ example:
   text-align: center;
   color: red;
 }
-here ì#paraî is the selector.
+here ‚Äú#para‚Äù is the selector.
 
 CSS class Selector
 This selects the HTML element of specific class.
@@ -118,7 +118,7 @@ example:
   text-align: center;
   color: red;
 }
-here ì.tableî is the selector.
+here ‚Äú.table‚Äù is the selector.
 
 You can also specify a particular element or elements of a class from HTML.
 
@@ -129,7 +129,7 @@ h1.table {
   text-align: center;
   color: red;
 }
-here ìh1î element of class ìtableî is selected.
+here ‚Äúh1‚Äù element of class ‚Äútable‚Äù is selected.
 
 CSS Universal Selector
 The universal selector (*) selects all HTML elements on the page.
@@ -148,10 +148,10 @@ p, h1, h2 {
 text-align: center;
   color: red;
 }
-here ìpî, ìh1î and ìh2î elements got selected and same styling is applied to all.
+here ‚Äúp‚Äù, ‚Äúh1‚Äù and ‚Äúh2‚Äù elements got selected and same styling is applied to all.
 
 NOTE: These are the basic selectors, there are many other selectors which can be used. Follow up this link to know more.
-To explain the code ìcommentsî are used by adding /*comment*/, so that the code can be explained in the file.
+To explain the code ‚Äúcomments‚Äù are used by adding /*comment*/, so that the code can be explained in the file.
 
 CSS Color
 Color Names
@@ -161,17 +161,17 @@ example: orange, red, blue
 Background Color
 You can set the background color for HTML elements:
 example:
-<h1 style=îbackground-color:Tomato;î>Hello!</h1>
+<h1 style=‚Äùbackground-color:Tomato;‚Äù>Hello!</h1>
 
 Text Color
 You can set the color of text:
 example:
-<p style=îcolor:DodgerBlue;î>Lorem ipsumÖ</p>
+<p style=‚Äùcolor:DodgerBlue;‚Äù>Lorem ipsum‚Ä¶</p>
 
 Border Color
 You can set the color of borders:
 example:
-<h1 style=îborder:2px solid DodgerBlue;î>Hello World</h1>
+<h1 style=‚Äùborder:2px solid DodgerBlue;‚Äù>Hello World</h1>
 
 RGB-Color
 rgb(red, green, blue)
@@ -185,7 +185,7 @@ To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
 RGBA Value
 rgba(red, green, blue, alpha)
 
-It values are an extension of RGB color values with an alpha channel ñ which specifies the opacity for a color.
+It values are an extension of RGB color values with an alpha channel ‚Äì which specifies the opacity for a color.
 
 example:
 rgba(255, 99, 71, 0.4)
@@ -205,18 +205,18 @@ hsl(hue, saturation, lightness)
 Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white.
 
 CSS-Fonts
-The font CSS property is a shorthand for font-variant, font-style, font-stretch and many more . Alternatively, it sets an elementís font to a system font.
+The font CSS property is a shorthand for font-variant, font-style, font-stretch and many more . Alternatively, it sets an element‚Äôs font to a system font.
 
 CSS Font Families
 In CSS, there are two types of font family names:
 
-generic family ñ a group of font families with a similar look (like ìSerifî or ìMonospaceî)
-font family ñ a specific font family (like ìTimes New Romanî or ìArialî)
+generic family ‚Äì a group of font families with a similar look (like ‚ÄúSerif‚Äù or ‚ÄúMonospace‚Äù)
+font family ‚Äì a specific font family (like ‚ÄúTimes New Roman‚Äù or ‚ÄúArial‚Äù)
 Generic family	Font family	Description
 Serif	Times New Roman
 Georgia	Serif fonts have small lines at the ends on some characters
 Sans-serif	Arial
-Verdana	ìSansî means without ñ these fonts do not have the lines at the ends of characters
+Verdana	‚ÄúSans‚Äù means without ‚Äì these fonts do not have the lines at the ends of characters
 Monospace	Courier New
 Lucida Console	All monospace characters have the same width
 example:
@@ -258,7 +258,7 @@ p.small {
 Font Size
 It sets the size of the font used in the web-page.
 We should use proper HTML tags for headings ( from <h1>-<h6>) and paragraphs (<p>).
-Font ñ size can be absolute and relative.
+Font ‚Äì size can be absolute and relative.
 
 Absolute size:
 Sets the text to a specified size
@@ -277,12 +277,12 @@ here percentage is used
 h1 {
   font-size: 2.5em;
 }
-here ìemî is used and 1em is qual to the original size, whereas 2.5em = 2.5*original size.
+here ‚Äúem‚Äù is used and 1em is qual to the original size, whereas 2.5em = 2.5*original size.
 
 p {
   font-size: 20px;
 }
-here ìpxî is used which is pixels.
+here ‚Äúpx‚Äù is used which is pixels.
 
 Important questions:
 What is CSS ?
