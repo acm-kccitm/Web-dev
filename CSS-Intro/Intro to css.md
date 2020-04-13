@@ -137,7 +137,7 @@ h1.table {
 The universal selector (*) selects all HTML elements on the page.
 
 #### example:
-* (space) {
+(*) (space) {
   text-align: center;
   color: blue;
 }
@@ -152,8 +152,9 @@ text-align: center;
 }
 *here “p”, “h1” and “h2” elements got selected and same styling is applied to all.
 
-**NOTE: These are the basic selectors, there are many other selectors which can be used. Follow up this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) to know more.
-To explain the code “comments” are used by adding /*comment*/, so that the code can be explained in the file.
+**NOTE:** 
+**These are the basic selectors, there are many other selectors which can be used. Follow up this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) to know more.**
+**To explain the code “comments” are used by adding /*comment*/, so that the code can be explained in the file.**
 
 ## CSS Color
 ### Color Names
@@ -165,20 +166,20 @@ orange, red, blue
 You can set the background color for HTML elements:
 #### example:
 
-*<h1 s tyle=”background-color:Tomato;”>Hello!</ h 1>
+<h 1 s tyle=”background-color:Tomato;”>Hello!</ h 1>
 
 ### Text Color
 You can set the color of text:
 #### example:
-*< p style=”color:DodgerBlue;”>Lorem ipsum…</p>
+*< p style=”color:DodgerBlue;”>Lorem ipsum… </ p>
 
 ### Border Color
 You can set the color of borders:
 #### example:
-*<h 1 style=”border:2px solid DodgerBlue;”>Hello World</h1>
+*<h 1 style=”border:2px solid DodgerBlue;”>Hello World</ h1>
 
 ### RGB-Color
-**rgb(red, green, blue)
+**rgb(red, green, blue)**
 
 Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
 
@@ -187,7 +188,7 @@ For example, rgb(255, 0, 0) is displayed as red, because red is set to its highe
 To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
 
 ### RGBA Value
-rgba(red, green, blue, alpha)
+**rgba(red, green, blue, alpha)**
 
 It values are an extension of RGB color values with an alpha channel – which specifies the opacity for a color.
 
@@ -197,14 +198,14 @@ rgba(255, 99, 71, 0.4)
 ### HEX-Color
 In CSS, a color can be specified using a hexadecimal value in the form:
 
-**#rrggbb
+**#rrggbb**
 
 Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
 
 ### HSL-Color
 In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form:
 
-**hsl(hue, saturation, lightness)
+**hsl(hue, saturation, lightness)**
 
 Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white.
 
@@ -215,17 +216,17 @@ The font CSS property is a shorthand for font-variant, font-style, font-stretch 
 In CSS, there are two types of font family names:
 
 * generic family – a group of font families with a similar look (like “Serif” or “Monospace”)
-* font family – a specific font family (like “Times New Roman” or “Arial”)
-|Generic family	|Font family	|Description|
-|---------------|:-----------:|----------:|
+* font family – a specific font family (like “Times New Roman” or “Arial”)<br>
+Generic family	|Font family	|Description
+|---|---|---|
 |Serif|	Times New Roman Georgia	|Serif fonts have small lines at the ends on some characters|
 |Sans-serif|	Arial Verdana|	“Sans” means without – these fonts do not have the lines at the ends of characters|
 |Monospace|	Courier New Lucida Console|	All monospace characters have the same width|
 #### example:
-*.sansserif {
+.sansserif {
   font-family: Arial, Helvetica, sans-serif;
-}
-**NOTE:More than one font can be inserted/specified using commas.
+}<br>
+**NOTE:More than one font can be inserted/specified using commas.**
 
 ### Font Style
 This property has three vales:
@@ -259,14 +260,14 @@ p.small {
 
 ### Font Size
 It sets the size of the font used in the web-page.
-We should use proper HTML tags for headings ( from <h1>-<h6>) and paragraphs (<p>).
+We should use proper HTML tags for headings ( from <h 1>-<h 6>) and paragraphs ( < p>).
 Font – size can be absolute and relative.
 
-**Absolute size:
+**Absolute size:**
 Sets the text to a specified size
 Does not allow a user to change the text size in all browsers (bad for accessibility reasons)
 Absolute size is useful when the physical size of the output is known
-Relative size:
+**Relative size:**
 Sets the size relative to surrounding elements
 Allows a user to change the text size in browsers**
 #### example:
@@ -274,23 +275,23 @@ Allows a user to change the text size in browsers**
 body {
   font-size: 100%;
 }
-*here percentage is used
+*here percentage is used*
 
 h1 {
   font-size: 2.5em;
 }
-*here “em” is used and 1em is qual to the original size, whereas 2.5em = 2.5*original size.
+*here “em” is used and 1em is qual to the original size, whereas 2.5em = 2.5*original size.*
 
 p {
   font-size: 20px;
 }
-*here “px” is used which is pixels.
+*here “px” is used which is pixels.*
 
-*Important questions:
-What is CSS ?
+**Important questions:**
+* What is CSS ?
 CSS stands for Cascading Style Sheets. Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
 
-*Types of css files ?
+* Types of css files ?
 1] Inline css
 2] Internal css
 3] external css
