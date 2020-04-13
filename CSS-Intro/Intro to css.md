@@ -217,11 +217,13 @@ In CSS, there are two types of font family names:
 
 * generic family – a group of font families with a similar look (like “Serif” or “Monospace”)
 * font family – a specific font family (like “Times New Roman” or “Arial”)<br>
-Generic family	|Font family	|Description
-|---|---|---|
-|Serif|	Times New Roman Georgia	|Serif fonts have small lines at the ends on some characters|
-|Sans-serif|	Arial Verdana|	“Sans” means without – these fonts do not have the lines at the ends of characters|
-|Monospace|	Courier New Lucida Console|	All monospace characters have the same width|
+
+| Generic family | Font family	              | Description                                                                        |
+| -------------- | -------------------------- | ---------------------------------------------------------------------------------- |
+| Serif          | Times New Roman Georgia	  | Serif fonts have small lines at the ends on some characters                        |
+| Sans-serif     | Arial Verdana              | “Sans” means without – these fonts do not have the lines at the ends of characters |
+| Monospace      | Courier New Lucida Console | All monospace characters have the same width                                       |
+
 #### example:
 .sansserif {
   font-family: Arial, Helvetica, sans-serif;
