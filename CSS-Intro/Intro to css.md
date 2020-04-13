@@ -16,10 +16,10 @@ p {
   font-size: 50px;
 }
 
-Here the back-ground of the web-page is set as blue. The heading has color red and is aligned at the center. The paragraph has font verdana with font size 50px(pixels).
+*Here the back-ground of the web-page is set as blue. The heading has color red and is aligned at the center. The paragraph has font verdana with font size 50px(pixels).*
 
 ![example](https://geeksgod.com/wp-content/uploads/2020/04/image-49-1024x576.png)
-The visual representation of the given example
+*The visual representation of the given example*
 
 ## Methods to add CSS
 There are three ways
@@ -51,18 +51,18 @@ The internal style is defined inside the <style> element, inside the head sectio
 body {  background-color: blue;}
 h1 {  color: red;  text-align: center;}
 p {  font-family: verdana;  font-size: 50px;}     
-</style>
-</head>
+</style></head>
+ ![example](https://geeksgod.com/wp-content/uploads/2020/04/image-59-1024x576.png)
 
 
 ### Inline CSS
 To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
 #### example:
-<h1 style=”color: blanchedalmond;”> I am heading </h1>
-<p style=”text-align: center;”>I am paragraph</p>
+<h 1 style=”color: blanchedalmond;”> I am heading </h1>
+<p sty le=”text-align: center;”>I am paragraph</ p>
+![example](https://geeksgod.com/wp-content/uploads/2020/04/image-60-1024x576.png)
 
-
-NOTE: Multiple ways of style sheet can be used in a single web-page.The execution of style shit will take place according to the highest priority.
+**NOTE: Multiple ways of style sheet can be used in a single web-page.The execution of style shit will take place according to the highest priority.**
 
 - Inline style (inside an HTML element)
 - External and internal style sheets (in the head section)
@@ -74,23 +74,23 @@ The CSS syntax consist of selector and declaration block:
 
 ![selector and declaration](https://geeksgod.com/wp-content/uploads/2020/04/download.png)
 
-To specify where CSS rule to be applied is given by using selector. Whereas, the declarations within the block determines how the elements are formatted on a web-page.
+To specify where CSS rule to be applied is given by using **selector**. Whereas, the **declarations** within the block determines how the elements are formatted on a web-page.
 
 
-The declaration block contains one or more declarations separated by semicolons.
+The declaration block contains one or more declarations separated by **semicolons.
 
-Each declaration includes a CSS property name and a value, separated by a colon.
+Each declaration includes a CSS property name and a value, separated by a **colon.
 
-A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
+A CSS declaration always ends with a **semicolon**, and declaration blocks are surrounded by **curly braces.
 
-CSS : Selectors
+### CSS : Selectors
 CSS selectors define the elements to which a set of CSS rules apply. It is used to find or select the HTML elements which you want to style.
 
 There are different types of selectors:
-CSS element Selector
+**CSS element Selector**
 The element selector selects HTML elements based on the element name.
 
-example:
+#### example:
 p {
   text-align: center;
   color: red;
