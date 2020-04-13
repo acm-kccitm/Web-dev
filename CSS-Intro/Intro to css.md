@@ -58,9 +58,10 @@ p {  font-family: verdana;  font-size: 50px;}
 ### Inline CSS
 To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
 #### example:
-<h 1 style=”color: blanchedalmond;”> I am heading </h1>
-<p sty le=”text-align: center;”>I am paragraph</ p>
-![example](https://geeksgod.com/wp-content/uploads/2020/04/image-60-1024x576.png)
+*<h 1 style=”color: blanchedalmond;”> I am heading *</h1>*
+*<p sty le=”text-align: center;”>I am paragraph</ p>*
+
+  ![example](https://geeksgod.com/wp-content/uploads/2020/04/image-60-1024x576.png)
 
 **NOTE: Multiple ways of style sheet can be used in a single web-page.The execution of style shit will take place according to the highest priority.**
 
@@ -95,73 +96,74 @@ p {
   text-align: center;
   color: red;
 }
-here “p” is the element selector.
+*here “p” is the element selector.
 
-CSS id Selector
-Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.
+**CSS id Selector**
+Selects an element based on the value of its *id* attribute. There should be only one element with a given ID in a document.
 
 To select an element with a specific id, write a hash (#) character, followed by the id of the element.
 
-example:
+#### example:
 #para {
   text-align: center;
   color: red;
 }
-here “#para” is the selector.
+*here “#para” is the selector.
 
-CSS class Selector
+**CSS class Selector**
 This selects the HTML element of specific class.
 
 To select elements with a specific class, write a period (.) character, followed by the class name.
 
-example:
+#### example:
 .table {
   text-align: center;
   color: red;
 }
-here “.table” is the selector.
+*here “.table” is the selector.
 
-You can also specify a particular element or elements of a class from HTML.
+**You can also specify a particular element or elements of a class from HTML.
 
 
  
-example:
+#### example:
 h1.table {
   text-align: center;
   color: red;
 }
-here “h1” element of class “table” is selected.
+*here “h1” element of class “table” is selected.
 
-CSS Universal Selector
+**CSS Universal Selector**
 The universal selector (*) selects all HTML elements on the page.
 
-example:
+#### example:
 * {
   text-align: center;
   color: blue;
 }
 
-CSS Grouping Selector
+**CSS Grouping Selector**
 The grouping selector selects all the HTML elements with the same style definitions.
 
-example:
+#### example:
 p, h1, h2 {
 text-align: center;
   color: red;
 }
-here “p”, “h1” and “h2” elements got selected and same styling is applied to all.
+*here “p”, “h1” and “h2” elements got selected and same styling is applied to all.
 
-NOTE: These are the basic selectors, there are many other selectors which can be used. Follow up this link to know more.
+**NOTE: These are the basic selectors, there are many other selectors which can be used. Follow up this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) to know more.
 To explain the code “comments” are used by adding /*comment*/, so that the code can be explained in the file.
 
-CSS Color
-Color Names
+## CSS Color
+### Color Names
 In CSS, a color can be specified by using a color name:
-example: orange, red, blue
+#### example:
+orange, red, blue
 
-Background Color
+### Background Color
 You can set the background color for HTML elements:
-example:
+#### example:
 <h1 style=”background-color:Tomato;”>Hello!</h1>
 
 Text Color
